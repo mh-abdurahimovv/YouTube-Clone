@@ -1,0 +1,137 @@
+
+:root {
+    --accent-color: rgb(197, 4, 4);
+    --lightest-gray: rgb(229, 229, 229);
+    --light-gray: rgb(40, 38, 38);
+    --medium-gray: rgb(96, 96, 96);
+    --dark-gray: rgb(15, 4, 4);
+    --header-height: 40px;
+    --animation-duration: 200ms;
+    --animation-timing-curve: ease-in-out;
+  }
+ 
+  .sidebar {
+    flex-shrink: 0;
+    overflow: hidden;
+    width: 75px;
+    border-right: 1px solid var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - var(--header-height));
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: stretch;
+    transition: width var(--animation-duration) var(--animation-timing-curve);
+    position: fixed;
+    z-index: 50;
+    left: 0;
+    top: var(--header-height);
+  }
+  
+  .sidebar .hidden-sidebar {
+    opacity: 0;
+    width: 0;
+    transition: opacity var(--animation-duration) var(--animation-timing-curve);
+  }
+  
+  .sidebar.open .hidden-sidebar {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+  }
+ 
+  .middle-sidebar {
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-grow: 1;
+    margin: 1rem 0;
+  }
+  
+  .middle-sidebar,
+  .bottom-sidebar {
+    width: 100%;
+    
+  }
+  .bottom-sidebar{
+    padding-bottom: 20px;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .content {
+    margin: 1rem;
+  }
+  
+  .sidebar-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .sidebar.open .sidebar-link {
+    justify-content: flex-start;
+  }
+  
+  .sidebar-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  
+  .sidebar-list .hidden-sidebar {
+    margin-left: 1.5rem;
+    white-space: nowrap;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    width: 100%;
+    padding: .5rem 0;
+    color: var(--light-gray);
+    text-decoration: none;
+    align-items: center;
+    padding-left: 25px;
+  }
+  
+  .sidebar-list-item {
+    position: relative;
+    width: 100%;
+    fill: var(--light-gray);
+
+  }
+  
+  .sidebar-list-item.active {
+    fill: var(--accent-color);
+    background-color: var(--lightest-gray);
+  }
+
+  .sidebar li:target {
+    background-color: red;
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: rgb(229, 229, 229);
+  }
+  
+  .sidebar-list-item.active::before {
+    content: "";
+    background-color: var(--accent-color);
+    height: 100%;
+    left: 0;
+    width: 3px;
+    position: absolute;
+  }
+  
+  .sidebar.open {
+    width: 200px;
+    position: fixed;
+    background-color:rgb(244, 244, 244);
+  }
+  
+
+
