@@ -1,7 +1,7 @@
 {
     "youtubeCards": [
       {
-        "videoLinl": "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=21906s",
+        "videoLink": "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=21906s",
         "videoPicture": "video-picture/1stph.jpg",
         "videoTime": "6:31:24",
         "profilePic":  "channel-picture/simple_dev.jpeg", 
@@ -11,7 +11,7 @@
         "videoStats": "2,2 млн просмотров &#183; 9 месяцев назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=VGVsxcw6kgo&t=2s",
+        "videoLink": "https://www.youtube.com/watch?v=VGVsxcw6kgo&t=2s",
         "videoPicture":"video-picture/2ndph.jpg" ,
         "videoTime": "29:48",
         "profilePic":  "channel-picture/anatomy.jpeg", 
@@ -21,7 +21,7 @@
         "videoStats": "1 млн просмотров &#183; 12 дней назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=RAeMMP4PFqI",
+        "videoLink": "https://www.youtube.com/watch?v=RAeMMP4PFqI",
         "videoPicture":"video-picture/3rdph.jpg" ,
         "videoTime": "04:55",
         "profilePic":  "channel-picture/fabtizio.jpeg", 
@@ -31,7 +31,7 @@
         "videoStats": "126 тыс просмотров &#183; 1 день назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=W4hgkHuZ8tU",
+        "videoLink": "https://www.youtube.com/watch?v=W4hgkHuZ8tU",
         "videoPicture": "video-picture/4thph.jpg",
         "videoTime": "12:32",
         "profilePic":  "channel-picture/saliheen.jpeg", 
@@ -41,7 +41,7 @@
         "videoStats": "87 тыс. просмотров &#183; 23 часа назад'"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=rgfiZB5EudA",
+        "videoLink": "https://www.youtube.com/watch?v=rgfiZB5EudA",
         "videoPicture": "video-picture/5thph.jpg",
         "videoTime": "16:26",
         "profilePic":  "channel-picture/nick.jpeg", 
@@ -51,7 +51,7 @@
         "videoStats": "1,1 млн просмотров &#183; 1 год назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=Y1vEv7YHD74",
+        "videoLink": "https://www.youtube.com/watch?v=Y1vEv7YHD74",
         "videoPicture":"video-picture/6thph.jpg" ,
         "videoTime": "07:38",
         "profilePic":  "channel-picture/ufc.jpeg", 
@@ -61,7 +61,7 @@
         "videoStats": "371 тыс. просмотров &#183; 14 часов назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=2QcZSVu3CCY",
+        "videoLink": "https://www.youtube.com/watch?v=2QcZSVu3CCY",
         "videoPicture":"video-picture/7thph.jpg" ,
         "videoTime": "29:48",
         "profilePic":  "channel-picture/piers.jpeg", 
@@ -71,7 +71,7 @@
         "videoStats": "3,3 млн просмотров &#183; 3 дней назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=vYAiS_Am3aM",
+        "videoLink": "https://www.youtube.com/watch?v=vYAiS_Am3aM",
         "videoPicture": "video-picture/8thph.jpg",
         "videoTime": "29:42",
         "profilePic":  "channel-picture/ielts.jpeg", 
@@ -81,7 +81,7 @@
         "videoStats": "3,3 млн просмотров &#183; 1 год назад'"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=21906s",
+        "videoLink": "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=21906s",
         "videoPicture": "video-picture/1stph.jpg",
         "videoTime": "6:31:24",
         "profilePic":  "channel-picture/simple_dev.jpeg", 
@@ -91,7 +91,7 @@
         "videoStats": "2,2 млн просмотров &#183; 9 месяцев назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=VGVsxcw6kgo&t=2s",
+        "videoLink": "https://www.youtube.com/watch?v=VGVsxcw6kgo&t=2s",
         "videoPicture":"video-picture/2ndph.jpg" ,
         "videoTime": "29:48",
         "profilePic":  "channel-picture/anatomy.jpeg", 
@@ -101,7 +101,7 @@
         "videoStats": "1 млн просмотров &#183; 12 дней назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=RAeMMP4PFqI",
+        "videoLink": "https://www.youtube.com/watch?v=RAeMMP4PFqI",
         "videoPicture":"video-picture/3rdph.jpg" ,
         "videoTime": "04:55",
         "profilePic":  "channel-picture/fabtizio.jpeg", 
@@ -111,7 +111,7 @@
         "videoStats": "126 тыс просмотров &#183; 1 день назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=W4hgkHuZ8tU",
+        "videoLink": "https://www.youtube.com/watch?v=W4hgkHuZ8tU",
         "videoPicture": "video-picture/4thph.jpg",
         "videoTime": "12:32",
         "profilePic":  "channel-picture/saliheen.jpeg", 
@@ -121,7 +121,7 @@
         "videoStats": "87 тыс. просмотров &#183; 23 часа назад'"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=rgfiZB5EudA",
+        "videoLink": "https://www.youtube.com/watch?v=rgfiZB5EudA",
         "videoPicture": "video-picture/5thph.jpg",
         "videoTime": "16:26",
         "profilePic":  "channel-picture/nick.jpeg", 
@@ -131,7 +131,7 @@
         "videoStats": "1,1 млн просмотров &#183; 1 год назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=Y1vEv7YHD74",
+        "videoLink": "https://www.youtube.com/watch?v=Y1vEv7YHD74",
         "videoPicture":"video-picture/6thph.jpg" ,
         "videoTime": "07:38",
         "profilePic":  "channel-picture/ufc.jpeg", 
@@ -141,7 +141,7 @@
         "videoStats": "371 тыс. просмотров &#183; 14 часов назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=2QcZSVu3CCY",
+        "videoLink": "https://www.youtube.com/watch?v=2QcZSVu3CCY",
         "videoPicture":"video-picture/7thph.jpg" ,
         "videoTime": "29:48",
         "profilePic":  "channel-picture/piers.jpeg", 
@@ -151,7 +151,7 @@
         "videoStats": "3,3 млн просмотров &#183; 3 дней назад"
       },
       {
-        "videoLinl": "https://www.youtube.com/watch?v=vYAiS_Am3aM",
+        "videoLink": "https://www.youtube.com/watch?v=vYAiS_Am3aM",
         "videoPicture": "video-picture/8thph.jpg",
         "videoTime": "29:42",
         "profilePic":  "channel-picture/ielts.jpeg", 
