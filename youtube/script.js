@@ -80,7 +80,7 @@
 
         };
 
-        getResources('http://localhost:3000/youtubeCards')
+        getResources('http://localhost:4000/youtubeCards')
             .then(data => {
             data.forEach(({videoLinl, videoPicture, videoTime, profilePic, bloggerTittle, followers, videoTittle, videoStats}) => {
                 new MenuCard(videoLinl, videoPicture, videoTime, profilePic, bloggerTittle, followers, videoTittle, videoStats,
