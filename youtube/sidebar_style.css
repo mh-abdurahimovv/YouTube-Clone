@@ -105,25 +105,25 @@
 
   }
   
-  .sidebar-list-item.active {
+  .sidebar-list-item li:target {
     fill: var(--accent-color);
     background-color: var(--lightest-gray);
   }
 
   .sidebar li:target {
-    background-color: red;
+    background-color: rgb(227, 227, 227);
   }
   
   .sidebar-list-item:hover {
     background-color: rgb(229, 229, 229);
   }
   
-  .sidebar-list-item.active::before {
+  li:target::before {
     content: "";
     background-color: var(--accent-color);
     height: 100%;
     left: 0;
-    width: 3px;
+    width: 8px;
     position: absolute;
   }
   
