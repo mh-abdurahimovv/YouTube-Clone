@@ -104,7 +104,7 @@
     fill: var(--light-gray);
 
   }
-  
+
   .sidebar-list-item li:target {
     fill: var(--accent-color);
     background-color: var(--lightest-gray);
