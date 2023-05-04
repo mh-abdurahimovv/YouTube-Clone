@@ -178,12 +178,26 @@
 
 }
 .voice-icon-butto:hover,.upload-icon:hover,
-.hamburger-menu:hover, .notification-icon:hover, {
+.hamburger-menu:hover, .notification-icon:hover {
   opacity: .5;
   border-radius: solid 50%;
 }
 
+.notification_check_container {
+  border: solid 2px;
+}
 
+
+.notification_check_text {
+  margin: 0 auto;
+}
+
+.notification_check_header {
+  display: flex;
+    align-items: center;;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 
